@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+#everything {
+    height: 100%;
+    width: 100%;
+}
+
+#centerContent {
+    height: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
