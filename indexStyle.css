@@ -89,3 +89,9 @@ body {
 #entry_up_button {
     margin-right: 2%;
 }
+
+#entry_content {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
