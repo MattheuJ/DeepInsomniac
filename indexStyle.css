@@ -13,15 +13,79 @@ body {
     width: 100%;
     background-color: #121213;
     border-bottom: 0.1px solid rgb(90, 88, 88);
+    display: flex;
+    align-items: center;
 }
 
 #header_title {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
-#main_container {}
+#main_container {
+    height: 1000px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
     
+#entry_title {
+    height: 10%;
+    width: 100%;
+}
+
+#entry_title_text {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    padding-top: 5%;
+}
+
+#entry_content {
+    height: 85%;
+    width: 100%;
+    background-color: #0e0e0f;
+}
+
+#entry_selector {
+    height: 80%;
+    width: 7%;
+    background-color: #0e0e0f;
+    display: inline-block;
+    margin-left: 35%;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+#entry_title_display {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    background-color: #0e0e0f;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    padding: 8% 0;
+}
+
+#entry_down_button, #entry_up_button {
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+#entry_down_button {
+    margin-left: 2%;
+}
+
+#entry_up_button {
+    margin-right: 2%;
+}
